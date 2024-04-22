@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" herf="script.js">
+    <title>Billiards</title>
+</head>
+
+<body>
+    <header>
+        <h1>Billiards</h1>
+    </header>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+        </ul>
+    </nav>
+    <div class="main-container">
+        <aside>
+            <form action="display.html" method="post">
+                <h5>Enter Player 1 Name</h5>
+                <input type="text" id="p1" name="p1" placeholder="Enter Name"></input>
+                <h5>Enter Player 2 Name</h5>
+                <input type="text" id="p2" name="p2" placeholder="Enter Name"></input>
+                <input type="submit" id="submit" value="Play Game">
+            </form>
+        </aside>
+        <main>
+            <article>
+                <h2>Rules</h2>
+                <ol>
+                    <li>The first player to go is randomly generated.</li>
+                    <li>Both players must sink all balls of their colours (light, dark).</li>
+                    <li>After they sink all their balls, they must sink the 8-ball.</li>
+                    <li>If any player sinks the 8-ball before they sink the rest of their balls, they lose.</li>
+                    <li>The first player to sink all their balls plus the 8-ball wins.</li>
+                    <li>If a player sinks one of their balls, they get an additional turn. If they don't, it becomes the opponents turn.</li>
+                </ol>
+            </article>
+        </main>
+    </div>
+    <footer>
+        <p>Copyright © 2024 Jaden VandenBerg</p>
+    </footer>
+</body>
+</html>

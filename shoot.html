@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title> Shoot! </title>
+    <link rel="shortcut icon" href="#">
+  </head>
+  <body>
+    <form action="display.html" method="post">
+      <h3> Still Ball </h3>
+        <label for="sb_number">Number (1-15):</label>
+        <input type="text" id="sb_number" name="sb_number" size="2" />
+        <label for="sb_x">X (28.5-1321.5):</label>
+        <input type="text" id="sb_x" name="sb_x" size="6" />
+        <label for="sb_y">Y (28.5-2671.5):</label>
+        <input type="text" id="sb_y" name="sb_y" size="6" />
+      <h3> Rolling Ball </h3>
+        <label for="rb_number">Number:</label>
+        <input type="text" id="rb_number" name="rb_number" size="2"
+	       value="0" readonly />
+        <label for="rb_x">X (28.5-1321.5):</label>
+        <input type="text" id="rb_x" name="rb_x" size="6" />
+        <label for="rb_y">Y (28.5-2671.5):</label>
+        <input type="text" id="rb_y" name="rb_y" size="6" />
+        <label for="rb_dx">&Delta;X:</label>
+        <input type="text" id="rb_dx" name="rb_dx" size="6" />
+        <label for="rb_dy">&Delta;Y:</label>
+        <input type="text" id="rb_dy" name="rb_dy" size="6" />
+      <h3> <input type="submit" value="Shoot!" /> </h3>
+    </form>
+  </body>
+</html>
